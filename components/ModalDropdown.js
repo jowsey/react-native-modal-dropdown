@@ -28,7 +28,7 @@ export default class ModalDropdown extends Component {
     multipleSelect: PropTypes.bool,
     scrollEnabled: PropTypes.bool,
     defaultIndex: PropTypes.number,
-    defaultValue: PropTypes.string,
+    defaultValue: PropTypes.object,
     options: PropTypes.array.isRequired,
     accessible: PropTypes.bool,
     animated: PropTypes.bool,
